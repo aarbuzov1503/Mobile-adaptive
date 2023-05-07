@@ -45,8 +45,8 @@
 
 .container {
   padding: 0 75px;
-  /* max-width: 1770px; */
-  /* margin: 0 auto; */
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 :root {
@@ -91,8 +91,14 @@
 }
 
 .header__burger {
+  width: 30px;
+  height: 23px;
   background: transparent;
-  border: none;
+  border-color: transparent;
+}
+
+.header__burger:hover {
+  cursor: pointer;
 }
 
 .burger__line {
@@ -100,6 +106,7 @@
   position: absolute;
   z-index: 1;
   top: 10px;
+  left: 0;
   width: 30px;
   height: 3px;
   background: var(--black);

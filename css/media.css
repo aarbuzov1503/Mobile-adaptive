@@ -1,4 +1,4 @@
-@media (max-width : 1455px) {
+@media (max-width : 1440px) {
 
   .header__list {
     padding-right: 70px;
@@ -7,6 +7,7 @@
 
   .container-hero {
     padding-left: 77px;
+    padding-right: 40px;
     padding-top: 160px;
     height: 668px;
   }
@@ -62,7 +63,7 @@
     font-size: 1vw
   }
 
-  .how__paragraph {
+  .how__text {
     margin-right: 15px;
   }
 
@@ -123,6 +124,15 @@
     margin-bottom: 37px;
   }
 
+  .hero__text {
+    width: 100%;
+  }
+
+  .hero__text .hero__descr {
+    width: 100%;
+    max-width: 660px;
+  }
+
   .about {
     margin-bottom: 81px;
   }
@@ -170,7 +180,7 @@
     padding: 0;
     align-items: start;
     padding-bottom: 10px;
-    padding-right: 77px;
+    padding-right: 8px;
     padding-left: 77px;
     padding-top: 65px;
   }
@@ -198,236 +208,41 @@
     width: 190px;
   }
 
-
-  .how__img {
-    background: url('../images/png/1024/Rectangle\ 18.png') right no-repeat;
-    background-size: cover;
-  }
-}
-
-/*
-
-@media (max-width : 1439px) {
-
-  .container {
-    width: 1100px;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .header__nav {
-    display: none;
-  }
-
-  .burger {
-    display: block;
-  }
-
-  .how__img {
-    width: 49.15%;
-    height: 665px;
-    background-size: cover;
-  }
-
-  .about__more {
-    width: 1098px;
-  }
-
-  .about__text {
-    width: 497px;
-    font-size: 16px;
-    line-height: 32px;
-  }
-
-  .how__paragraph {
-    padding-right: 10px;
-  }
-
-  .accordion__subtitle {
-    font-size: 20px;
-    text-align: left;
-  }
-
-  .accordion__subtitle-inner {
-    width: 850px;
-  }
-
-  .footer__application {
-    margin-right: 70px;
-  }
-
-}
-
-@media (max-width : 1199px) {
-
-  .container {
-    width: 924px;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .container-header {
-    height: 100px;
-  }
-
-  .header__nav {
-    display: none;
-  }
-
-  .header__logo {
-    margin: auto 0;
-    width: 150px;
-    height: 48px;
-  }
-
-  .header {
-    margin-bottom: 39px;
-  }
-
-  .header__logo-wrap {
-    padding: 26px 0;
-  }
-
-  .header__img {
-    width: 150px;
-    height: 48px;
-  }
-
-  .container-hero {
-    padding-top: 160px;
-    padding-left: 75px;
-    height: 669px;
-  }
-
-  .hero {
-    margin-bottom: 32px;
-  }
-
-  .hero__title .hero__link {
-    font-size: 60px;
-    line-height: 73px;
-    margin-bottom: 16px;
-  }
-
-  .hero__text .hero__descr {
-    width: 658px;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 60px;
-  }
-
-  .about {
-    margin-bottom: 81px;
-  }
-
-  .about__text-top {
-    margin-bottom: 61px;
-  }
-
-  .about__left {
-    width: 100%;
-    height: 640px;
-    margin-bottom: 32px;
-    background-size: cover;
-  }
-
-  .about__subcat {
-    width: 100%;
-    height: 173px;
-  }
-
-  .about__more-img-btm {
-    margin-right: 62px;
-  }
-
-  .about__more {
-    width: 924px;
-    height: 295px;
-    padding-bottom: 0;
-    padding-left: 78px;
-  }
-
-  .about__more:first-child {
-    margin-bottom: 32px;
-  }
-
-  .about__more-inner .about__descr {
-    font-size: 16px;
-    line-height: 32px;
-  }
-
-  .about__more .about__subject {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 9px;
-  }
-
-  .steps {
-    margin-bottom: 55px;
-  }
-
-  .steps .steps__item:nth-child(1) {
-    margin-right: 86px;
-    padding-left: 2px;
-  }
-
   .how {
-    margin-bottom: 23px;
+    margin-bottom: 76px;
   }
 
   .how__text {
-    width: 47.29%;
-    margin-bottom: 57px;
-  }
-
-  .how__text .subject {
-    margin-left: 0;
-    margin-bottom: 9px;
-  }
-
-  .how__paragraph {
-    margin-bottom: 25px;
-  }
-
-  .more__btn {
-    margin-right: 24px;
-  }
-
-  .how__more-link {
-    margin-right: 34px;
+    width: 437px;
   }
 
   .how__img {
-    background: url('../images/jpg/Rectangle\ 18\ 2v.jpg') right no-repeat;
-    width: 47.29%;
-    height: 689px;
-    margin-top: 9px;
-  }
-
-  .questions {
-    margin-bottom: 82px;
-  }
-
-  .accordion {
-    margin: 0;
+    background: url('../images/png/1024/Rectangle\ 18.png') right no-repeat;
+    width: 437px;
+    background-size: cover;
   }
 
   .title-questions {
-    margin-bottom: 40px;
+    margin-bottom: 31px;
+  }
+
+  .accordion {
+    margin-bottom: 80px;
   }
 
   .accordion__subtitle-inner {
+    width: 748px;
     font-size: 20px;
-    width: 750px;
   }
 
   .accordion__subtitle:nth-child(1) {
-    padding-top: 34px;
+    padding-top: 39px;
+    padding-bottom: 21px;
   }
 
   .accordion__subtitle:nth-child(2) {
-    padding-top: 33px;
+    padding-top: 29px;
+    padding-bottom: 30px;
   }
 
   .accordion__subtitle:nth-child(3) {
@@ -436,167 +251,95 @@
 
   .accordion__subtitle:nth-child(4) {
     padding-top: 29px;
+    padding-bottom: 26px;
   }
 
   .accordion__subtitle:nth-child(5) {
-    padding-top: 48px;
-  }
-
-  .footer__title {
-    padding-left: 14px;
-  }
-
-  .footer__form-info {
-    width: 536px;
-  }
-
-  .footer__form-message {
-    width: 536px;
-  }
-
-  .footer__form {
-    padding-left: 18px;
-  }
-
-  .footer__nav {
-    width: 30.95%;
-  }
-
-  .footer__application {
-    margin-right: 15px;
-    width: 541px;
-  }
-
-  .footer__blog-consent {
-    display: flex;
-    justify-content: center;
-    width: 541px;
+    padding-top: 39px;
+    padding-bottom: 21px;
   }
 
   .footer__send-btn {
-    padding: 19px 38px;
+    padding: 0;
+    width: 241px;
+    height: 58px;
   }
-
-  .footer__contacts {
-    margin-bottom: 43px;
-  }
-
 }
 
-@media (max-width : 1023px) {
-
-  .container {
-    margin: 0 auto;
-    width: 668px;
-  }
-
+@media (max-width : 768px) {
   .container-header {
     height: 69px;
-    max-width: 668px;
-  }
-
-  .container-hero {
-    padding-left: 40px;
-    padding-top: 160px;
-    max-width: 768px;
-    height: 662px;
-    background-size: cover;
-  }
-
-  .burger {
-    margin-top: 22px;
-  }
-
-  .header__img {
-    width: 150px;
-    height: 48px;
   }
 
   .header__logo-wrap {
     padding: 11px 0;
   }
 
-  .hero {
-    margin-bottom: 38px;
+  .burger {
+    margin-top: 23px;
+  }
+
+  .burger__line {
+    width: 30px;
+    height: 3px;
+  }
+
+  .burger__line:before {
+    width: 30px;
+    height: 3px;
+    top: 8px;
+  }
+
+  .burger__line:after {
+    width: 30px;
+    height: 3px;
+    top: -8px;
+  }
+
+  .container-hero {
+    padding: 0;
+    padding-left: 40px;
+    padding-top: 160px;
+    height: 662px;
   }
 
   .hero__title .hero__link {
     font-size: 50px;
     line-height: 61px;
-    margin-bottom: 10px;
   }
 
   .hero__text .hero__descr {
-    width: 588px;
-  }
-
-  .hero__text {
-    width: 588px;
+    max-width: 588px;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .about__text-top {
-    margin-bottom: 53px;
+    margin-bottom: 54px;
   }
 
-  .about__left {
-    width: 668px;
-    height: 649px;
-    margin-bottom: 32px;
-  }
-
-  .about__subcat {
-    padding: 0 40px;
-    width: 100%;
-  }
-
-  .about__text {
-    width: 401px;
-  }
-
-  .about__btn {
-    right: 30px;
-    bottom: 56px;
-    height: 59px;
+  .about__wrapper {
+    height: 650px;
   }
 
   .about__more {
-    width: 668px;
-    height: 238px;
-    padding-top: 35px;
     padding-left: 40px;
-    padding-right: 44px;
-    padding-bottom: 35px;
+    padding-top: 35px;
+    height: 235px;
   }
 
-  .about__more:first-child {
-    margin-bottom: 30px;
+  .about__right {
+    height: 500px;
   }
 
   .about__more-img-btm {
-    width: 114px;
     margin-right: 15px;
+    width: 114px;
   }
 
   .about__more-img-top {
-    width: 114px;
     margin-right: 15px;
-  }
-
-  .title-how {
-    margin-bottom: 45px;
-  }
-
-  .steps {
-    justify-content: space-between;
-    margin-bottom: 42px;
-  }
-
-  .steps .steps__item:nth-child(1) {
-    margin-right: 86px;
-  }
-
-  .how {
-    margin-bottom: 50px;
+    width: 114px;
   }
 
   .how__content {
@@ -604,62 +347,55 @@
     flex-direction: column-reverse;
   }
 
-  .how__text {
-    width: 100%;
-    margin-bottom: 0;
-  }
-
-  .how__text .subject {
-    margin-bottom: 10px;
-  }
-
   .how__img {
-    width: 668px;
+    background: url('../images/png/768/how-768-2.png') center no-repeat;
+    margin: 0;
+    width: 100%;
+    max-width: 668px;
     height: 286px;
     margin-bottom: 38px;
     background-size: cover;
   }
 
-  .subject {
-    margin-bottom: 7px;
+  .steps {
+    margin-bottom: 51px;
+    justify-content: space-between;
+  }
+
+  .how__text {
+    margin: 0;
+    width: 100%;
   }
 
   .how__paragraph {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
   }
 
-  .more__btn {
-    margin-right: 24px;
-    margin-bottom: 58px;
+  .how__more-link {
+    margin-right: 32px;
   }
 
-  .questions {
-    margin-bottom: 110px;
+  .how {
+    margin-bottom: 20px;
   }
 
-  .title-questions {
-    margin-bottom: 31px;
-    font-size: 48px;
-    line-height: 59px;
-  }
-
-  .accordion__subtitle:nth-child(1) {
-    padding-top: 38px;
-    padding-bottom: 20px;
+  .accordion {
+    margin-bottom: 111px;
   }
 
   .accordion__subtitle:nth-child(3) {
-    padding-top: 34px;
-    padding-bottom: 27px;
+    padding-top: 28px;
+    padding-bottom: 29px;
   }
 
   .accordion__subtitle:nth-child(4) {
-    padding-bottom: 31px;
+    padding-bottom: 30px;
   }
+
 
   .accordion__subtitle:nth-child(5) {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 29px;
   }
 
   .container-footer {
@@ -678,7 +414,8 @@
 
   .footer__application {
     margin: 0;
-    width: 570px;
+    width: 100%;
+    max-width: 543px;
   }
 
   .footer__form {
@@ -688,10 +425,11 @@
 
   .footer__title {
     margin: 0;
-    padding-left: 3px;
+    padding-bottom: 24px;
   }
 
   .footer__form-message {
+    margin-bottom: 23px;
     width: 534px;
   }
 
@@ -709,148 +447,72 @@
 
   .footer__contacts {
     margin: 0;
-    margin-bottom: 42px;
+    margin-bottom: 47px;
   }
 
   .footer__form-info {
-    width: 543px;
+    max-width: 543px;
+    width: 100%;
   }
 
   .footer__form-message {
-    width: 543px;
-  }
-
-  .footer__blog-consent {
-    padding: 0;
+    max-width: 543px;
+    width: 100%;
   }
 }
 
-@media (max-width : 767px) {
-  .container {
-    width: 290px;
-    margin: 0 auto;
-  }
-
-  .header {
-    margin-bottom: 29px;
-  }
-
-  .container-header {
-    height: 69px;
-  }
-
-  .header__logo {
-    width: 110px;
-    height: 35px;
-  }
-
-  .header__img {
-    width: 110px;
-    height: 35px;
-  }
-
-  .header__logo-wrap {
-    padding: 17px 0;
-  }
-
-  .burger__line {
-    width: 25px;
-    height: 3px;
-  }
-
-  .burger__line:before {
-    width: 25px;
-    height: 3px;
-    top: 8px;
-  }
-
-  .burger__line:after {
-    width: 25px;
-    height: 3px;
-    top: -8px;
-  }
-
+@media (max-width : 576px) {
   .container-hero {
     padding-left: 22px;
     padding-top: 60px;
-    margin-bottom: 39px;
-    width: 290px;
-    height: 308px;
-  }
-
-  .hero {
-    margin-bottom: 61px;
+    padding-right: 60px;
+    height: 500px;
   }
 
   .hero__content {
-    height: 116px;
-  }
-
-  .hero__title .hero__link {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero__text {
-    width: 270px;
     text-align: center;
-    margin: 0;
+  }
+
+  .hero__text .hero__link {
+    font-size: 34px;
+    line-height: 45px;
   }
 
   .hero__text .hero__descr {
-    width: 247px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    margin-bottom: 32px;
-  }
-
-  .hero__descr {
-    width: 247px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .hero__btn {
-    margin: 0;
-    padding: 13px 28px;
-    font-size: 12px;
-    line-height: 15px;
-    margin-left: 38px;
-    border-radius: 8px;
-  }
-
-  .title {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    margin-left: 0;
+    font-size: 17px;
+    line-height: 20px;
   }
 
   .about {
-    margin-bottom: 57px;
+    margin-bottom: 0;
+  }
+
+  .about__wrapper {
+    margin-bottom: 221px;
+    height: 413px;
+    max-width: 924px;
+    width: 100%;
   }
 
   .about__text-top {
     font-size: 14px;
     line-height: 28px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
   }
 
   .about__left {
-    width: 290px;
-    height: 200px;
-    margin-top: 12px;
     position: relative;
   }
 
   .about__subcat {
+    padding: 0;
     border-radius: 16px;
     background: none;
   }
@@ -892,16 +554,17 @@
   .about__more {
     display: flex;
     border: none;
-    width: 290px;
+    width: 100%;
     height: auto;
     padding: 0;
     gap: 30px;
+    border-radius: 0;
   }
 
   .about__more-inner {
     display: flex;
     flex-direction: column;
-    width: 290px;
+    width: 100%;
     margin: 0;
   }
 
@@ -911,9 +574,8 @@
     font-size: 14px;
   }
 
-
   .about__more .about__subject {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 8px;
@@ -931,255 +593,71 @@
     margin-bottom: 6px;
   }
 
-
-  .about__right {
-    margin-top: 200px;
-  }
-
-  .steps {
-    margin-bottom: 5px;
-  }
-
-  .title-how {
-    margin-bottom: 20px;
-  }
-
-  .steps__btn {
-    width: 41px;
-    height: 17px;
-    font-size: 14px;
-    line-height: 17px;
+  .title {
+    font-size: 32px;
   }
 
   .steps .steps__item:nth-child(1) {
-    margin-right: 37px;
-    padding: 0;
-  }
-
-  .steps .steps__item:nth-child(2) {
-    margin-right: 44px;
-    padding: 0;
-  }
-
-  .steps .steps__item:nth-child(3) {
-    margin-right: 44px;
-    padding: 0;
-  }
-
-  .how {
-    margin-bottom: 24px;
-  }
-
-  .how__text {
-    margin-bottom: 41px;
-  }
-
-  .how__img {
-    margin-top: 8px;
-    margin-bottom: 16px;
-    width: 290px;
-    height: 160px;
-    background-size: cover;
-    background: url('../images/png/Rectangle\ 18\ 3v.png');
-  }
-
-  .how__content {
-    padding: 0;
-  }
-
-  .how__text .subject {
-    font-size: 18px;
-    line-height: 32px;
-    margin-bottom: 9px;
-  }
-
-  .how__paragraph {
-    font-size: 14px;
-    line-height: 28px;
-    margin-bottom: 24px;
-  }
-
-  .how__more-link {
-    padding: 10px 43px;
-    border-radius: 9px;
-    font-size: 12px;
-    line-height: 15px;
-    margin-right: 12px;
-  }
-
-  .how__contract-link {
-    padding: 10px 31px;
-    border-radius: 9px;
-    font-size: 12px;
-    line-height: 15px;
-  }
-
-  .more__btn {
-    width: 162px;
-    height: 40px;
-    font-size: 12px;
-    line-height: 15px;
-    margin: 0;
     margin-right: 5px;
   }
 
-  .questions {
-    margin-bottom: 60px;
+  .steps .steps__item:nth-child(2) {
+    margin-right: 5px;
   }
 
-  .title-questions {
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 12px;
-  }
-
-  .accordion__subtitle-inner {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    padding-left: 0;
-    width: 243px;
-  }
-
-
-  .accordion__subtitle:nth-child(1) {
-    padding-top: 32px;
-    padding-bottom: 27px;
-  }
-
-  .accordion__subtitle:nth-child(2) {
-    padding-top: 32px;
-    padding-bottom: 27px;
-  }
-
-  .accordion__subtitle:nth-child(3) {
-    padding-top: 32px;
-    padding-bottom: 27px;
-  }
-
-  .accordion__subtitle:nth-child(4) {
-    padding-top: 32px;
-    padding-bottom: 27px;
-  }
-
-  .accordion__subtitle:nth-child(5) {
-    padding-top: 32px;
-    padding-bottom: 27px;
-  }
-
-  .accordion__icon {
-    width: 29px;
-  }
-
-
-  .accordion__block {
-    padding-bottom: 39px;
-  }
-
-  .footer {
-    padding: 0;
-  }
-
-  .container-footer {
-    padding: 0 15px;
-    width: 320px;
-  }
-
-  .footer__nav {
-    margin: 0;
-  }
-
-  .footer__application {
-    width: 290px;
+  .steps .steps__item:nth-child(3) {
+    margin-right: 5px;
   }
 
   .footer__title {
-    margin: 0;
-    padding: 0;
-    padding-top: 34px;
-    padding-bottom: 21px;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 32px;
     line-height: 29px;
   }
-
-  .footer__form {
-    margin-left: 0;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 32px;
-  }
-
-  .footer__form-info {
-    width: 290px;
-    padding-left: 20px;
-  }
-
-  .footer__form-message {
-    width: 290px;
-    padding-left: 20px;
-    margin-bottom: 11px;
-  }
-
-  .footer__send-btn {
-    padding: 0;
-    width: 180px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    border-radius: 9px;
-  }
-
-  .footer__blog-consent {
-    display: flex;
-    justify-content: center;
-    width: 290px;
-    padding: 0;
-    margin-bottom: 14px;
-  }
-
-  .footer__img {
-    margin: 0;
-    width: 131px;
-    height: 42px;
-  }
-
-  .footer__img-wrap {
-    padding: 0;
-    padding-top: 18px;
-    margin-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    width: 290px;
-    border-top: 1px solid var(--silver-3);
-
-  }
-
-  .footer__application {
-    margin-right: 0;
-  }
-
-  .footer__contacts {
-    margin: 0;
-    padding-left: 96px;
-    margin-bottom: 16px;
-  }
-
-  .footer__logo {
-    margin: 0;
-    height: 42px;
-    width: 131px;
-  }
-
-  .footer__contacts .footer__contacts-item:not(:last-child) {
-    margin-right: 15px;
-  }
-
-  .footer__social-icon {
-    width: 40px;
-
-  }
-
 }
 
-*/
+@media (max-width : 480px) {
+.container {
+  padding: 0 15px;
+}
+
+  .container-hero {
+    padding-left: 22px;
+    padding-top: 60px;
+    padding-right: 22px;
+    height: 500px;
+  }
+
+  .hero__text .hero__link {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .hero__text .hero__descr {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .steps__btn {
+    font-size: 15px;
+  }
+
+  .how__more-link {
+    margin-right: 10px;
+  }
+
+  .how__list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+/*
+@media (max-width : 706px) {
+
+
+
+
+  } */
